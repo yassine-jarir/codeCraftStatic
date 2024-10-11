@@ -12,10 +12,12 @@ html,
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  margin-bottom: 3rem;
-  height: 100%;
-}
+   height: 100%;
 
+}
+body{
+  margin: 0 !important;
+}
 h2 {
   font-size: 100px;
   position: relative;
@@ -112,10 +114,8 @@ p.intro-des span {
 }
 
 section.page-container {
-  margin: auto;
-  width: 90%;
-  max-width: 800px;
-  height: 35vh;
+   width: 100%;
+   height: 35vh;
   position: relative;
   text-align: center;
 }
@@ -133,7 +133,7 @@ section.page-container {
 .section-container {
   position: absolute;
   top: 45%;
-  left: 50%;
+  left: 80%;
   width: 90%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -231,6 +231,7 @@ section.page-container {
   display: flex;
        justify-content: center;
     align-items: center;
+    padding: 0 30px;
 }
 .container img{
   width: 50%;
@@ -264,3 +265,6 @@ section.page-container {
 }
 
 
+/* p{
+  float: right;
+} */
